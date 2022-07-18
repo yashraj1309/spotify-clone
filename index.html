@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Web Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body>
+    <!-- Navbar Top -->
+    <nav>
+        <ul>
+            <li class="main-logo">
+                <img src="/R.png" alt="logo" width="auto" height="40px"><span>Spotify<span font-size="16px">&#8482;</span></span>
+            </li>
+            <li>Home</li>
+            <li>Search</li>
+            <li>Your Library</li>
+            <br>
+            <br>
+            <li>Create Playlist</li>
+            <li>Liked Songs</li>
+            <br>
+            <li>Panjabi 101</li>
+            <li>Top hits Hindi</li>
+            <li>Made for You</li>
+            <br>
+            <br>
+            <li>Install App</li>
+        </ul>
+    </nav>
+
+    <!-- Upper Contianer -->
+    <div class="upper-container">
+        <div class="user-id button" id="upgrade-button">yashraj</div>
+        <div class="upgrade button">UPGRADE</div>
+    </div>
+    <div id="upgrade">
+        <div>Account</div>
+        <div>Profile</div>
+        <div>Upgrade to Premium</div>
+        <div>Log Out</div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <h2 class="container-logo">Best of NCS - Albums</h2>
+        <section class="main-section">
+            <section class="flex">
+                <aside class="first">
+                    <div class="aside_banner">
+                        <img src="1.jpg" alt="1" class="main-logo">
+                        <div>Excuses - AP Dhillon<i id="1" class="far fa-play-circle songPlay"></i></div>
+                        <img src="/giphy.gif" alt="gif" class="giffy" id="11">
+                    </div>
+                </aside>
+                <aside class="second">
+                    <div class="aside_banner">
+                        <img src="2.jpg" alt="1" class="main-logo">
+                        <div>Let Me Love You<i id="2" class="far fa-play-circle songPlay"></i></div>
+                        <img src="/giphy.gif" alt="gif" class="giffy" id="12">
+                    </div>
+                </aside>
+                <aside class="third">
+                    <div class="aside_banner">
+                        <img src="3.jpg" alt="1" class="main-logo">
+                        <div>Closer<i id="3" class="far fa-play-circle songPlay"></i></div>
+                        <img src="/giphy.gif" alt="gif" class="giffy" id="13">
+                    </div>
+                </aside>
+            </section>
+            <section class="flex">
+                <aside class="fourth">
+                    <div class="aside_banner">
+                        <img src="4.jpg" alt="1" class="main-logo">
+                        <div>Siddhat - Title trake<i id="4" class="far fa-play-circle songPlay"></i></div>
+                        <img src="/giphy.gif" alt="gif" class="giffy" id="14">
+                    </div>
+                </aside>
+                <aside class="fifth">
+                    <div class="aside_banner">
+                        <img src="5.jpg" alt="1" class="main-logo">
+                        <div>Blue Eyes<i id="5" class="far fa-play-circle songPlay"></i></div>
+                        <img src="/giphy.gif" alt="gif" class="giffy" id="15">
+                    </div>
+                </aside>
+                <aside class="sixth">
+                    <div class="aside_banner">
+                        <img src="6.jpg" alt="1" class="main-logo">
+                        <div>Na Na Na Na<i id="6" class="far fa-play-circle songPlay"></i></div>
+                        <img src="/giphy.gif" alt="gif" class="giffy" id="16">
+                    </div>
+                </aside>
+            </section>
+            <section class="flex">
+                <aside class="fourth">
+                    <div class="aside_banner">
+                        <img src="7.png" alt="1" class="main-logo">
+                        <div>No Lie - Dua lipa<i id="7" class="far fa-play-circle songPlay"></i></div>
+                        <img src="/giphy.gif" alt="gif" class="giffy" id="17">
+                    </div>
+                </aside>
+                <aside class="fifth">
+                    <div class="aside_banner">
+                        <img src="8.jpg" alt="1" class="main-logo">
+                        <div>Shape of You<i id="8" class="far fa-play-circle songPlay"></i></div>
+                        <img src="/giphy.gif" alt="gif" class="giffy" id="18">
+                    </div>
+                </aside>
+                <aside class="sixth">
+                    <div class="aside_banner">
+                        <img src="9.jpg" alt="1" class="main-logo">
+                        <div>Tu Ake Dekhle<i id="9" class="far fa-play-circle songPlay"></i></div>
+                        <img src="/giphy.gif" alt="gif" class="giffy" id="19">
+                    </div>
+                </aside>
+            </section>
+            <section class="flex">
+                <aside class="fourth">
+                    <div class="aside_banner">
+                        <img src="10.jpg" alt="1" class="main-logo">
+                        <div>Dil Diyan Gallan<i id="10" class="far fa-play-circle songPlay"></i></div>
+                        <img src="/giphy.gif" alt="gif" class="giffy" id="20">
+                    </div>
+                </aside>
+                <aside class="fifth">
+                    <div class="aside_banner">
+                        <img src="11.jpg" alt="1" class="main-logo">
+                        <div>Dekhte Dekhte<i id="11" class="far fa-play-circle songPlay"></i></div>
+                        <img src="/giphy.gif" alt="gif" class="giffy" id="21">
+                    </div>
+                </aside>
+                <aside class="sixth">
+                    <div class="aside_banner">
+                        <img src="12.jpg" alt="1" class="main-logo">
+                        <div>Saami Saami<i id="12" class="far fa-play-circle songPlay"></i></div>
+                        <img src="/giphy.gif" alt="gif" class="giffy" id="22">
+                    </div>
+                </aside>
+            </section>
+        </section>
+        <div class="songlist"></div>
+        <div class="songBanner"></div>
+    </div>
+
+    <!-- Bottom -->
+    <div class="bottom">
+        <div class="icons">
+            <!-- ion icons  -->
+            <ion-icon name="skip-backward" class="icon" id="previous"></ion-icon>
+            <ion-icon name="play" class="icon" id="masterPlay"></ion-icon>
+            <ion-icon name="skip-forward" class="icon" id="next"></ion-icon>
+        </div>
+        <input type="range" name="range" class="myProgressBar" id="myProgressBar" min="0" max="100" value="0">
+        <div class="bottom-banner">
+            <img src="10.jpg" alt="1" class="main-logo" id="bottom-banner">
+            <div class="name" id="bottom-banner-name">Dil Diyan Gallan</div>
+        </div>
+    </div>
+        <script src="https://kit.fontawesome.com/612d4c4b01.js" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        <script src="spotifyScript.js"></script> 
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Dont write Script before html -->
+</body>
+</html>
